@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Excellence Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">Academic Excellence Portfolio</h1>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#profiles" class="nav-link">Profiles</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Distinguished Academic Leaders</h2>
+            <p class="hero-description">
+                Showcasing excellence in academia, research, and leadership across engineering, law, and technology sectors
+            </p>
+            <button class="hero-btn" onclick="scrollToProfiles()">Explore Profiles</button>
+        </div>
+    </section>
+
+    <!-- Profiles Section -->
+    <section id="profiles" class="profiles-section">
+        <div class="container">
+            <h3 class="section-title">Our Distinguished Members</h3>
+
+            <div class="profiles-grid">
+                <!-- Prof. Dr. Tadisina Kishen Kumar Reddy -->
+                <div class="profile-card">
+                    <div class="profile-left">
+                        <div class="profile-avatar">
+                            <img class="img1" src="assets/images/KishanKumarReddy/kishanKumar.jpg" alt="image 1">
+                        </div>
+                        <div class="profile-info">
+                            <h4 class="profile-name">Dr. Tadisina Kishen Kumar Reddy</h4>
+                            <p class="profile-title">Professor (Retd.) & Vice Chancellor, JNTUH</p>
+                            <div class="contact-info">
+                                <p>📧 reddykishen@jntuh.ac.in</p>
+                                <p>📞 040-23150010</p>
+                                <p>🏢 Mechanical Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-right">
+                        <h5 class="expertise-title">Areas of Expertise</h5>
+                        <div class="expertise-grid">
+                            <div class="expertise-item blue-item">Thermal Fluid Sciences</div>
+                            <div class="expertise-item green-item">Computational Fluid Dynamics</div>
+                            <div class="expertise-item purple-item">Nanotechnology</div>
+                            <div class="expertise-item orange-item">Production Engineering</div>
+                        </div>
+                        <p class="profile-description">
+                            Dr. Reddy has been appointed as Vice Chancellor of JNTUH for three years. His research spans Nanolubricants in Refrigeration systems, Numerical Simulation of Planar Flow Melt Spinning, and Design of Active Panels for Scramjet propulsion using CFD.
+                        </p>
+                        <button class="know-more-btn blue-btn" onclick="openProfile('https://jntuh.ac.in/vice-chancellor')">Know More</button>
+                    </div>
+                </div>
+
+                <!-- Prof. Dr. V Balakista Reddy -->
+                <div class="profile-card">
+                    <div class="profile-left">
+                        <div class="profile-avatar">
+                            <img class="img2" src="assets/images/VundhyalaBalakistaReddy/BlakistaReddy.jpg" alt="image 1">
+                        </div>
+                        <div class="profile-info">
+                            <h4 class="profile-name">Dr. Vundhyala Balakista Reddy</h4>
+                            <p class="profile-title">Professor of International Law</p>
+                            <div class="contact-info">
+                                <p>📧 balakista@nalsar.ac.in</p>
+                                <p>📞 040-23300437</p>
+                                <p>🏢 NALSAR University of Law</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-right">
+                        <h5 class="expertise-title">Leadership Roles</h5>
+                        <div class="expertise-grid">
+                            <div class="expertise-item green-item">Former Vice-Chancellor, NALSAR</div>
+                            <div class="expertise-item blue-item">Director, CADL & CTLR</div>
+                            <div class="expertise-item purple-item">LL.M. Course Coordinator</div>
+                            <div class="expertise-item orange-item">International Trade & Business Laws</div>
+                        </div>
+                        <p class="profile-description">
+                            Prof. Reddy is a renowned academic with extensive experience in international law, serving as former Vice-Chancellor and Registrar of NALSAR University. He leads multiple centers and coordinates specialized legal programs.
+                        </p>
+                        <button class="know-more-btn green-btn" onclick="openProfile('https://tgche.ac.in/officer/prof-v-balakista-reddy/')">Know More</button>
+                    </div>
+                </div>
+
+                <!-- Mr. Akhil Babu Yanamandi -->
+                <div class="profile-card">
+                    <div class="profile-left">
+                        <div class="profile-avatar">
+                            <img class="img3" src="assets/images/AkhilBabu/Akhil.jpg" alt="image 1">
+                        </div>
+                        <div class="profile-info">
+                            <h4 class="profile-name">Mr. Akhil Babu Yanamandi</h4>
+                            <p class="profile-title">Chairman & Managing Director</p>
+                            <div class="contact-info">
+                                <p>📧 akhil@cits.com</p>
+                                <p>📞 090305 10045</p>
+                                <p>🏢 Cloud InfraTech Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-right">
+                        <h5 class="expertise-title">Cloud Technology Innovation</h5>
+                        <div class="expertise-grid">
+                            <div class="expertise-item purple-item">Cloud Infrastructure</div>
+                            <div class="expertise-item blue-item">Data Security Solutions</div>
+                            <div class="expertise-item green-item">Business Transformation</div>
+                            <div class="expertise-item orange-item">Cloud Storage Solutions</div>
+                        </div>
+                        <p class="profile-description">
+                            Leading Cloud InfraTech Solutions, Mr. Yanamandi specializes in breakthrough cloud technologies, offering innovative solutions for business transformation with robust cloud storage and security infrastructure.
+                        </p>
+                        <button class="know-more-btn purple-btn" onclick="openProfile('https://g.co/kgs/CTNRQ6G')">Know More</button>
+                    </div>
+                </div>
+
+                <!-- Prof. Kumar Molugaram -->
+                <div class="profile-card">
+                    <div class="profile-left">
+                        <div class="profile-avatar">
+                            <img class="img4" src="assets/images/KumarMolugaram/Kumar.jpg" alt="image 1">
+                        </div>
+                        <div class="profile-info">
+                            <h4 class="profile-name">Prof. Kumar Molugaram</h4>
+                            <p class="profile-title">Vice-Chancellor, Osmania University</p>
+                            <div class="contact-info">
+                                <p>📧 vc@osmania.ac.in</p>
+                                <p>📞 040-27098048</p>
+                                <p>🏢 Civil Engineering, OU</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-right">
+                        <h5 class="expertise-title">Academic Excellence</h5>
+                        <div class="expertise-grid">
+                            <div class="expertise-item orange-item">Ph.D., IIT Bombay</div>
+                            <div class="expertise-item blue-item">29+ Years Experience</div>
+                            <div class="expertise-item green-item">Civil Engineering Research</div>
+                            <div class="expertise-item purple-item">Senior Professor</div>
+                        </div>
+                        <p class="profile-description">
+                            Prof. Molugaram brings 29+ years of academic excellence with degrees from prestigious institutions. As Vice-Chancellor of Osmania University, he continues to make substantial contributions to Civil Engineering education and research.
+                        </p>
+                        <button class="know-more-btn orange-btn" onclick="openProfile('https://www.osmania.ac.in/vc.php')">Know More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h3 class="section-title white-text">Get In Touch</h3>
+            <p class="contact-description">
+                Connect with our distinguished academic leaders and explore collaboration opportunities
+            </p>
+            <div class="contact-buttons">
+                <button class="contact-btn primary">Contact Us</button>
+                <button class="contact-btn secondary">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Academic Excellence Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

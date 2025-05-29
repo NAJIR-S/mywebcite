@@ -1,0 +1,216 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     background-color: #f4f4f4;
+     color: #333;
+ }
+ 
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+ }
+ 
+ .profiles-grid {
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+ }
+ 
+ .profile-card {
+     display: flex;
+     flex-wrap: wrap;
+     background: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .profile-left,
+ .profile-right {
+     flex: 1 1 300px;
+     padding: 10px;
+ }
+ 
+ .profile-avatar img {
+     width: 100%;
+     max-width: 300px;
+     aspect-ratio: 4 / 3;
+     object-fit: cover;
+     border-radius: 10px;
+     box-shadow: 5px -1px 20px 1px black;
+ }
+ 
+ .expertise-grid {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .expertise-item {
+     padding: 5px 10px;
+     border-radius: 5px;
+     background-color: #eee;
+ }
+ 
+ .blue-item {
+     background-color: #007bff;
+     color: white;
+ }
+ 
+ .green-item {
+     background-color: #28a745;
+     color: white;
+ }
+ 
+ .purple-item {
+     background-color: #6f42c1;
+     color: white;
+ }
+ 
+ .orange-item {
+     background-color: #fd7e14;
+     color: white;
+ }
+ 
+ .know-more-btn {
+     padding: 10px 15px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-weight: bold;
+ }
+ 
+ .blue-btn {
+     background-color: #007bff;
+     color: white;
+ }
+ 
+ .green-btn {
+     background-color: #28a745;
+     color: white;
+ }
+ 
+ .purple-btn {
+     background-color: #6f42c1;
+     color: white;
+ }
+ 
+ .orange-btn {
+     background-color: #fd7e14;
+     color: white;
+ }
+ 
+ .navbar {
+     background-color: #333;
+     padding: 1rem;
+     color: white;
+ }
+ 
+ .nav-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .nav-title {
+     font-size: 1.5rem;
+ }
+ 
+ .nav-links {
+     display: flex;
+     gap: 1rem;
+     flex-wrap: wrap;
+ }
+ 
+ .nav-link {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .hero {
+     background: linear-gradient(to right, #007bff, #6f42c1);
+     color: white;
+     text-align: center;
+     padding: 60px 20px;
+ }
+ 
+ .hero-title {
+     font-size: 2rem;
+     margin-bottom: 10px;
+ }
+ 
+ .hero-description {
+     margin-bottom: 20px;
+ }
+ 
+ .hero-btn {
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     background-color: #fff;
+     color: #333;
+     cursor: pointer;
+ }
+ 
+ .contact-section {
+     background-color: #333;
+     color: white;
+     padding: 40px 20px;
+     text-align: center;
+ }
+ 
+ .contact-buttons {
+     display: flex;
+     gap: 1rem;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin-top: 1rem;
+ }
+ 
+ .contact-btn {
+     padding: 10px 20px;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+ }
+ 
+ .primary {
+     background-color: #007bff;
+     color: white;
+ }
+ 
+ .secondary {
+     background-color: #6f42c1;
+     color: white;
+ }
+ 
+ .footer {
+     background-color: #222;
+     color: white;
+     text-align: center;
+     padding: 20px;
+ }
+ 
+ @media screen and (max-width: 768px) {
+     .nav-container {
+         flex-direction: column;
+         align-items: flex-start;
+         gap: 1rem;
+     }
+     .profile-card {
+         flex-direction: column;
+     }
+     .profile-left,
+     .profile-right {
+         flex: 1 1 100%;
+     }
+ }
